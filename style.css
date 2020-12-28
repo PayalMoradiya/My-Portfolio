@@ -2,15 +2,12 @@ body{
     background-image: url("C:/Payal Project/Personal Portfolio/My-Portfolio/Reource/b3.jpg");
     font-size: 16px;
     font-family: Andika New Basic, sans-serif;
-    z-index: -1;
 
 }
 nav{
     float:right;
-    
-
-
 }
+
 li {
     list-style: none;
     display: inline;

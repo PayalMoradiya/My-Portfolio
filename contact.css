@@ -1,0 +1,22 @@
+body{
+    font-size: 16px;
+    font-family: Andika New Basic, sans-serif;
+
+}
+
+nav{
+    float:right;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 22px;
+    margin-right: 10px;
+   
+}
+ a {
+    color:black;
+    font-size: 1.5em;
+    font-weight: bold;
+ }
