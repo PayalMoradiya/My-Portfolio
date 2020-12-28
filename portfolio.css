@@ -8,13 +8,21 @@ body{
 }
 p {
     font-size: 1.3em;
+    line-height: normal;
+}
+h1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 2em;
 }
 
 nav{
     float:right;
 }
 
-li {
+header li {
 
     display: inline;
     margin-left: 22px;
@@ -28,4 +36,8 @@ li {
  }
  .about li{
      list-style-type:square ;
+     font-size: 1.3em;
+ }
+ img{
+     margin-left: 20px;
  }
