@@ -1,21 +1,25 @@
+html {
+    font-size: 62.5%;
+}
+
 body{
     
-    font-size: 16px;
     font-family: Andika New Basic, sans-serif;
     background-color:#766f6f;
     color:white;
 
 }
 p {
-    font-size: 1.3em;
+    font-size: 2.1rem;
     line-height: normal;
 }
 h1 {
-    border-bottom: 1px solid white;
-    padding-bottom: 20px;
+    border-bottom: 0.1rem solid white;
+    padding-bottom: 2rem;
+    font-size: 3.7rem ;
 }
 h2 {
-    font-size: 2em;
+    font-size: 3.2rem;
 }
 
 nav{
@@ -25,19 +29,24 @@ nav{
 header li {
 
     display: inline;
-    margin-left: 22px;
-    margin-right: 10px;
+    margin-left: 2.2rem;
+    margin-right: 1rem;
    
 }
  a {
     color: white;
-    font-size: 1.5em;
+    font-size: 2.4rem;
     font-weight: bold;
  }
  .about li{
      list-style-type:square ;
-     font-size: 1.3em;
+     font-size: 2.1rem;
  }
  img{
-     margin-left: 20px;
+     margin-left: 2rem;
  }
+ @media only screen and (min-width:320px) and (max-width:480px), (orientation: portrait) {
+    html {
+        font-size: 45%;
+    }
+}
